@@ -1,0 +1,175 @@
+/* ==========BODY STARTS============ */
+
+
+body{
+    margin:0px;
+    background-color: #9e9e9e47;
+    font-family: sans-serif;
+}
+
+
+/* ==========BODY ENDS============ */
+
+
+
+/* ==========HEADER AND LOGO STARTS============ */
+
+#header{
+    background-color: #222F3E;
+}
+
+#header .logo{
+    width: 200px;
+    padding-left: 10px;
+}
+
+/* ==========HEADER AND LOGO ENDS============ */
+
+
+
+/* ========== TOP NAVBAR============ */
+
+
+.navbar{
+    text-decoration: none;
+    padding: 7px;
+    display: block;
+    background-color: #354758; 
+}
+
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding:10px
+}
+
+
+
+/* ==========TOP NAVBAR ENDS============ */
+
+
+
+/* ==========HOLIDAY CARDS HEADING and gifts guides============ */
+
+
+.card-heading, .gifts-guides {
+    text-align: center;
+    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-heading{
+    background-color: #f56600;
+}
+
+.gifts-guides{
+    background-image: url(./assets/bg-image.png);
+    background-size: contain;
+    padding: 10px;  
+}
+
+
+
+/* ==========HOLIDAY CARDS HEADING and gifts guides ENDS============ */
+
+
+
+/* ==================INLINE IMAGES STARTS================= */
+
+.gifts-categories{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #ffffff;
+}
+
+.gift-options{
+    display: inline-block;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+.shopping{
+    color:cornflowerblue;
+    text-decoration: none;
+}
+
+
+.image{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    vertical-align: top;
+    max-height: px;
+    object-fit: cover;
+    margin: 10px;
+    box-shadow: 1px 0px 3px #fefefefc;
+} 
+
+
+/* ==================INLINE IMAGES ENDS================= */
+
+
+
+/* ==================BIG IMAGES STARTS================= */
+
+
+.first-image, .second-image{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;    
+}
+
+.first-image .big, .second-image .big{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.first-image .paragraph, .second-image .paragraph{
+    text-align: center;
+}    
+
+.first-image .links, .second-image .links{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+/* ==================BIG IMAGES ENDS================= */
+
+
+
+/* ==================FOOTER NAVBAR STARTS================= */
+.footer-navbar {
+    padding: 7px;
+    display: block;
+    background-color: #354758;
+    text-align: center;
+}
+
+.footer-navbar a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+/* ==================FOOTER NAVBAR ENDS================= */
+
+
+
+
+/* ==================FOOTER STARTS================= */
+
+
+#footer{
+    background-color: #222F3E;
+    text-align: center;
+
+}
+
+#footer .logo {
+    width: 200px;
+    padding-left: 10px;
+}
+
+/* ==================FOOTER ENDS================= */
